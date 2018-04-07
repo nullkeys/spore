@@ -1,0 +1,17 @@
+{
+    "extends": "eslint:recommended",
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "rules": {
+        "no-console": ["error", {"allow": ["error"]}],
+        "quotes": ["error", "single"],
+        "eol-last": 1,
+        "semi": "error",
+        "yoda": "error"
+    }
+}
